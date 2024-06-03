@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Site</title>
+    <link rel="stylesheet" href="styleproject.css">
+</head>
+<body>
+    <header class="heading">
+        <div class="search-bar">
+            <div class="dropdown">
+                <div id="drop-text" class="dropdown-text">
+                    <span>Quiz Type &#x25BE;</span>
+                </div>
+            </div>
+            <ul id="list" class="dropdown-list">
+                <li class="dropdown-list-item">Chemistry</li>
+                <li class="dropdown-list-item">Physics</li>
+                <li class="dropdown-list-item">Mathematics</li>
+            </ul>
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="search here">
+                <button id="btn" type="submit">GO</button>
+            </div>
+        </div>
+    </header>
+    <div class="app">
+        <h1 style="text-align: left;">Quiz</h1>
+        <h1 id="difficulty" style="text-align: right;">difficulty</h1>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <div id="answer-buttons">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+            <button id="next-btn">NEXT</button>
+        </div>
+    </div>
+    <footer> 
+        <div class="container">
+            <h1>Time Counter</h1>
+            <div id="timer">00:00:00</div>
+        </div>
+    </footer>
+    <script src="sampleproject.js"></script>
+</body>
+</html>
